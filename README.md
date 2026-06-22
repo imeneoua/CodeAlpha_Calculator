@@ -33,7 +33,7 @@ A simple and elegant calculator built with HTML, CSS, and JavaScript as part of 
 
 1. Clone this repository:
    
-   git clone https://github.com/YOUR_USERNAME/CodeAlpha_Calculator.git
+   git clone https://github.com/imeneoua/CodeAlpha_Calculator.git
 
 2. Open the project folder
 3. Open `index.html` in your browser
