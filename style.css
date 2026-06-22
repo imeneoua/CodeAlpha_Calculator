@@ -81,7 +81,38 @@ button:active {
 
 .operations{
     font-weight: bold;
+    background: #F7C2CA;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 60px;
+    box-shadow: 3px 1px 0px 1px #fb74a390;
+    font-size: 20px;
+    cursor: pointer;
+
 }
+ 
+.operations:active {
+  transform: scale(0.93);
+  background: #F7C2CA;
+}
+
+#equal-btn{
+    background: #d39ff9;
+    border: none;
+    box-shadow: 3px 1px 0px 1px #d39ff990;
+}
+
+#equal-btn:hover{
+  background: #b377de;
+  box-shadow: 0 4px 12px #d39ff9;
+}
+
+#equal-btn:active{
+  transform: scale(0.93);
+  background: #d39ff9;
+}
+
 @media (max-width: 500px) {
     #card {
         width: 80%;

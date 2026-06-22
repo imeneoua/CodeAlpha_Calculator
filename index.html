@@ -12,29 +12,29 @@
 
             <div class="buttons">
 
-                <button class="operations">clr</button>
-                <button class="operations">DEL</button>
-                <button class="operations">%</button>
-                <button class="operations">/</button>
+                <button onclick="clearDisplay()" class="clear">C</button>
+                <button onclick="appendToDisplay('DEL')" class="clear">DEL</button>
+                <button onclick="appendToDisplay('%')" class="operations">%</button>
+                <button onclick="appendToDisplay('/')" class="operations">/</button>
 
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="operations">*</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('*')" class="operations">*</button>
 
-                <button>6</button>
-                <button>5</button>
-                <button>4</button>
-                <button class="operations">-</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('-')" class="operations">-</button>
 
-                <button>3</button>
-                <button>2</button>
-                <button>1</button>
-                <button class="operations">+</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('+')" class="operations">+</button>
 
-                <button>.</button>
-                <button>0</button>
-                <button id="equal-btn">=</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="calculate('=')" id="equal-btn">=</button>
             </div>
         </div>     
     </div>
