@@ -114,7 +114,26 @@ button:active {
 
 @media (max-width: 500px) {
     #card {
-        width: 80%;
-        padding: 35px 25px;
+        width: 70%;
+        padding: 40px 30px;
+    }
+    button{
+        width: 90%;
+        height: 50px;
+        margin-top: 6px;
+    }
+    .buttons{
+        gap: 7px;
+    }
+    .operations{
+        width: 90%;
+        height: 50px;
+    }
+    #equal-btn{
+        width: 95%;
+        height: 50px;
+    }
+    #card{
+        gap: 30px;
     }
 }
